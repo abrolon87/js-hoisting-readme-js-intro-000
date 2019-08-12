@@ -7,12 +7,11 @@ function callMe() {
   return lyric;
 
 }
-
-
+//passed 
+var thisIsCrazy = function
 function crazy() {
-  var thisIsCrazy = function (){
   thisIsCrazy();
-    console.log("hey!!!");
+  console.log("hey!!!");
   }
 }
 
