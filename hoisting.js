@@ -8,3 +8,13 @@ function callMe() {
 
 }
 //passed
+
+
+
+var thisIsCrazy = function;
+function crazy() {
+  thisIsCrazy = function() {
+   thisIsCrazy();
+   console.log("hey!!!")
+  }
+}
