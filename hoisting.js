@@ -1,4 +1,4 @@
-const lyric = "maybe";
+var lyric = "maybe";
 function callMe() {
   console.log("I just met you...");
   console.log("and this is crazy..");
@@ -8,8 +8,9 @@ function callMe() {
 
 }
 //passed
-var thisIsCrazy = function
+
 function crazy() {
+var thisIsCrazy = function
   thisIsCrazy();
   console.log("hey!!!");
   }
