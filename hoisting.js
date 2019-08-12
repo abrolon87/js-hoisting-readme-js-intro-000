@@ -5,20 +5,16 @@ function callMe() {
   console.log("but here's my number..");
   console.log("so call me");
   return lyric;
-
 }
-//passed
-
 
 function crazy() {
   console.log("hey!!!");
   var thisIsCrazy = function() {
   thisIsCrazy();
-
     console.log("hey!!!");
   }
 }
-//passed
+
 var name = "Kristin";
 function sayMyName() {
   name = "Cricky";
@@ -27,7 +23,5 @@ function sayMyName() {
   function sayMy() {
     name = "Kristin";
     console.log(name);
-
-  }
+ }
 }
-//passed
