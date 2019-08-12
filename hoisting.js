@@ -10,7 +10,7 @@ function callMe() {
 //passed
 
 function crazy() {
-  thisIsCrazy 
+  thisIsCrazy
   thisIsCrazy();
   console.log("hey!!!");
   }
