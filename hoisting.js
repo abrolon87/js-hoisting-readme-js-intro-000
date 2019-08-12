@@ -18,3 +18,14 @@ function crazy() {
     console.log("hey!!!");
   }
 }
+//passed
+var name = "Kristin";
+function sayMyName() {
+  var name = "Cricky";
+  console.log(name)
+  sayMy();
+  function sayMy() {
+    console.log(name);
+    
+  }
+}
